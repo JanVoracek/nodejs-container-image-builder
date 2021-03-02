@@ -1,8 +1,9 @@
 {
   "name": "oci-image-builder",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "container image builder. without docker, docker/oci registry client and image building helpers for protocol version 2, fork of container-image-builder",
   "main": "build/src/index.js",
+  "types": "src/index.ts",
   "keywords": [],
   "scripts": {
     "test": "nyc mocha -t 60000 --require source-map-support/register build/test/*.js",
