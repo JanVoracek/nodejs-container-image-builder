@@ -1,7 +1,7 @@
 {
-  "name": "container-image-builder",
+  "name": "oci-image-builder",
   "version": "3.2.1",
-  "description": "container image builder. without docker, docker/oci registry client and image building helpers for protocol version 2",
+  "description": "container image builder. without docker, docker/oci registry client and image building helpers for protocol version 2, fork of container-image-builder",
   "main": "build/src/index.js",
   "keywords": [],
   "scripts": {
@@ -44,9 +44,6 @@
     "request": "^2.88.0",
     "tar": "^4.4.8",
     "walkdir": "^0.4.0"
-  },
-  "publishConfig": {
-    "registry": "https://wombat-dressing-room.appspot.com/container-image-builder/_ns"
   },
   "nyc": {
     "extension": ".ts"
